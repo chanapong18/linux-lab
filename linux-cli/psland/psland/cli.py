@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 @click.argument('src', nargs=-1)
 #@click.argument('dst', nargs=1)
 def main(src):
-    	"""Get Poster Kseries"""
+    	"""Get Poster form movies website"""
 	name=""	
 	for fn in src:
         	name+='%s' % (fn)+" "
